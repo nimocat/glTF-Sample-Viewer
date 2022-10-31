@@ -19,8 +19,6 @@ async function main()
 
     const pathProvider = new gltfModelPathProvider('assets/models/2.0/model-index.json');
     await pathProvider.initialize();
-
-    // 创建地址用于点击
     const environmentPaths = fillEnvironmentWithPaths({
         "footprint_court": "Footprint Court",
         "pisa": "Pisa",
